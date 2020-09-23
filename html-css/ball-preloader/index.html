@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball Loader CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader" class="bounce"></div>
+    <script>
+        const loader = document.querySelector('#loader');
+        console.log('loader ', loader);
+        const self = this;
+        setTimeout(() => {
+            self.loader.classList.add('hidden');
+        }, 2000);
+        
+    </script>
+</body>
+</html>

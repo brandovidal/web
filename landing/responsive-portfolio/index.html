@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navBar">
+            <a href="#">
+                <img src="logo.png" alt="logo" />
+            </a>
+            <a href="#">
+                <img src="menu.png" alt="menu" />
+            </a>
+        </nav>
+
+        <header>
+            <h1 class="anim">UI & UX Design</h1>
+            <p class="anim">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam,
+                soluta rem quia odio quo aut voluptatem consequuntur consequatur
+                officiis itaque sit saepe id accusantium, vero est deserunt corporis.
+                Reprehenderit, nobis?
+            </p>
+        </header>
+
+        <div class="work">
+            <img class="anim" src="project1.jpg" alt="project img">
+            <img class="anim" src="project2.jpg" alt="project img">
+            <img class="anim" src="project3.jpg" alt="project img">
+            <img class="anim" src="project4.jpg" alt="project img">
+        </div>
+
+        <div class="header2">
+            <h1 class="anim">Other Projects</h1>
+            <p class="anim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo autem, iure excepturi eligendi natus nulla sunt dolores velit, fugit facilis veritatis illo illum voluptas? Dolorum ut voluptate aliquid temporibus.</p>
+        </div>
+
+        <div class="work2">
+            <img class="anim" src="project5.jpg" alt="project img">
+            <img class="anim" src="project6.jpg" alt="project img">
+        </div>
+
+        <footer>
+            <p>codegrid | Design </p>
+        </footer>
+    </div>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.anim', { interval: 200, easing: 'steps(5)' });
+    </script>
+</body>
+
+</html>
